@@ -1,9 +1,17 @@
-import { contentfulClient } from "@/lib/contentful";
+import { draftMode } from "next/headers";
+import { getClient } from "@/lib/contentful";
+import { SectionRenderer } from "@/components/SectionRenderer";
+
+export const revalidate = 60;
 
 export default async function Home() {
-  const response = await contentfulClient.getEntries({
+  const { isEnabled } = await draftMode();
+  const client = getClient(isEnabled);
+
+  const response = await client.getEntries({
     content_type: "page",
     "fields.slug": "home",
+    include: 2,
   });
 
   const page = response.items[0];
@@ -14,6 +22,7 @@ export default async function Home() {
 
   const heroImage = page.fields.heroImage as any;
   const imageUrl = heroImage?.fields?.file?.url;
+  const sections = (page.fields.sections as any[]) || [];
 
   return (
     <main style={{ padding: "40px" }}>
@@ -26,7 +35,10 @@ export default async function Home() {
       )}
 
       <h1>{page.fields.title as string}</h1>
-      <p>{page.fields.body as string}</p>
+
+      {sections.map((section, i) => (
+        <SectionRenderer key={i} section={section} />
+      ))}
     </main>
   );
 }
