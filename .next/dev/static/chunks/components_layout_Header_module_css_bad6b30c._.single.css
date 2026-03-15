@@ -1,13 +1,17 @@
 /* [project]/components/layout/Header.module.css [app-client] (css) */
 .Header-module__KHjLKa__nav {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--col-border);
   gap: 40px;
   padding: 20px;
   display: flex;
 }
 
+.Header-module__KHjLKa__nav > * {
+  color: var(--col-text);
+}
+
 .Header-module__KHjLKa__link {
-  color: inherit;
+  color: var(--col-text);
   text-decoration: none;
 }
 
@@ -16,8 +20,9 @@
 }
 
 .Header-module__KHjLKa__pageTitle {
+  color: var(--col-accent);
   padding: 20px 40px;
-  font-size: 48px;
+  font-size: 4em;
 }
 
 /*# sourceMappingURL=components_layout_Header_module_css_bad6b30c._.single.css.map*/

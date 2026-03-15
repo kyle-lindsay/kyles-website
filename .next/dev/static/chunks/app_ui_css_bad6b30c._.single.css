@@ -1,7 +1,7 @@
 /* [project]/app/ui.css [app-client] (css) */
 .buttonLink {
-  color: inherit;
-  border: 1px solid #000;
+  border: 1px solid var(--col-accent);
+  color: var(--col-text);
   border-radius: 8px;
   padding: 12px 20px;
   text-decoration: none;

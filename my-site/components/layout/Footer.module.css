@@ -1,5 +1,5 @@
 .footer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--col-border);
   margin-top: 64px;
   padding: 24px;
   display: flex;
@@ -11,4 +11,5 @@
   font-size: 0.95rem;
   opacity: 0.8;
   text-align: center;
+  color: var(--col-text)
 }

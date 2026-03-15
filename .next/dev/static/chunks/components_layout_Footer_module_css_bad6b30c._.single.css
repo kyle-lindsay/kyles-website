@@ -1,6 +1,6 @@
 /* [project]/components/layout/Footer.module.css [app-client] (css) */
 .Footer-module__yg9ahW__footer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--col-border);
   justify-items: center;
   margin-top: 64px;
   padding: 24px;
@@ -10,6 +10,7 @@
 .Footer-module__yg9ahW__text {
   opacity: .8;
   text-align: center;
+  color: var(--col-text);
   margin: 0;
   font-size: .95rem;
 }

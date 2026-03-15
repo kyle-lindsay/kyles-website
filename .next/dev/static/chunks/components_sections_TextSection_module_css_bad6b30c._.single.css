@@ -1,6 +1,7 @@
 /* [project]/components/sections/TextSection.module.css [app-client] (css) */
 .TextSection-module__Y1l6wG__content {
   max-width: 100%;
+  color: var(--col-text);
 }
 
 .TextSection-module__Y1l6wG__heading {

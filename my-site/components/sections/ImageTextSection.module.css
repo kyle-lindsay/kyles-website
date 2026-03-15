@@ -24,6 +24,7 @@
 
 .text {
   flex: 1;
+  color: var(--col-text);
 }
 
 .heading {
@@ -33,12 +34,13 @@
 .body {
   margin-bottom: 20px;
   line-height: 1.6;
+  color: var(--col-text);
 }
 
 .button {
   display: inline-block;
   padding: 12px 20px;
-  border: 1px solid #000;
+  border: 1px solid var(--col-border);
   border-radius: 8px;
   text-decoration: none;
 }

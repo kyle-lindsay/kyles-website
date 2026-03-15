@@ -24,6 +24,7 @@
 }
 
 .ImageTextSection-module__YU9_jq__text {
+  color: var(--col-text);
   flex: 1;
 }
 
@@ -32,12 +33,13 @@
 }
 
 .ImageTextSection-module__YU9_jq__body {
+  color: var(--col-text);
   margin-bottom: 20px;
   line-height: 1.6;
 }
 
 .ImageTextSection-module__YU9_jq__button {
-  border: 1px solid #000;
+  border: 1px solid var(--col-border);
   border-radius: 8px;
   padding: 12px 20px;
   text-decoration: none;
