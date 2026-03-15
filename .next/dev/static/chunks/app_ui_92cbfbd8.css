@@ -1,0 +1,15 @@
+/* [project]/app/ui.css [app-client] (css) */
+.buttonLink {
+  color: inherit;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonLink:hover {
+  opacity: .85;
+}
+
+/*# sourceMappingURL=app_ui_92cbfbd8.css.map*/

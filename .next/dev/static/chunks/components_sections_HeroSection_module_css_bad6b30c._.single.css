@@ -1,0 +1,34 @@
+/* [project]/components/sections/HeroSection.module.css [app-client] (css) */
+.HeroSection-module___Axouq__hero {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.HeroSection-module___Axouq__imageWrap {
+  width: 100%;
+}
+
+.HeroSection-module___Axouq__image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.HeroSection-module___Axouq__content {
+  max-width: 800px;
+}
+
+.HeroSection-module___Axouq__heading {
+  margin: 0 0 16px;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.HeroSection-module___Axouq__subheadline {
+  margin: 0 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=components_sections_HeroSection_module_css_bad6b30c._.single.css.map*/

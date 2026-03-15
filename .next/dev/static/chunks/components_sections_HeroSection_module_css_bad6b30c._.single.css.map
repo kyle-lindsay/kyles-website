@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/sections/HeroSection.module.css"],"sourcesContent":[".hero {\n  display: flex;\n  flex-direction: column;\n  gap: 24px;\n}\n\n.imageWrap {\n  width: 100%;\n}\n\n.image {\n  width: 100%;\n  height: auto;\n  border-radius: 12px;\n}\n\n.content {\n  max-width: 800px;\n}\n\n.heading {\n  margin: 0 0 16px;\n  font-size: 2.5rem;\n  line-height: 1.1;\n}\n\n.subheadline {\n  margin: 0 0 20px;\n  font-size: 1.2rem;\n  line-height: 1.5;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;AAMA;;;;AAIA;;;;;;AAMA"}}]
+}

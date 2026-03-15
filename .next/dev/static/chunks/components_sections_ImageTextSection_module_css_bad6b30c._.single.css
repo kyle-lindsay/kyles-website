@@ -1,0 +1,53 @@
+/* [project]/components/sections/ImageTextSection.module.css [app-client] (css) */
+.ImageTextSection-module__YU9_jq__layout {
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  display: flex;
+}
+
+.ImageTextSection-module__YU9_jq__layoutReverse {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 32px;
+  display: flex;
+}
+
+.ImageTextSection-module__YU9_jq__imageWrap {
+  flex: 1;
+}
+
+.ImageTextSection-module__YU9_jq__image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.ImageTextSection-module__YU9_jq__text {
+  flex: 1;
+}
+
+.ImageTextSection-module__YU9_jq__heading {
+  margin: 0 0 16px;
+}
+
+.ImageTextSection-module__YU9_jq__body {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ImageTextSection-module__YU9_jq__button {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .ImageTextSection-module__YU9_jq__layout, .ImageTextSection-module__YU9_jq__layoutReverse {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=components_sections_ImageTextSection_module_css_bad6b30c._.single.css.map*/
