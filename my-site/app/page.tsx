@@ -4,6 +4,31 @@ import { SectionRenderer } from "@/components/SectionRenderer";
 
 export const revalidate = 60;
 
+export async function generateMetadata() {
+  const { isEnabled } = await draftMode();
+  const client = getClient(isEnabled);
+
+  const response = await client.getEntries({
+    content_type: "page",
+    "fields.slug": "home",
+    include: 2,
+  });
+
+  const page = response.items[0];
+
+  if (!page) {
+    return {
+      title: "Home",
+      description: "",
+    };
+  }
+
+  return {
+    title: (page.fields.seoTitle as string) || (page.fields.title as string),
+    description: (page.fields.seoDescription as string) || "",
+  };
+}
+
 export default async function Home() {
   const { isEnabled } = await draftMode();
   const client = getClient(isEnabled);
