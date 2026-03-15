@@ -28,11 +28,12 @@
 .ImageTextSection-module__YU9_jq__text {
   color: var(--col-text);
   flex: 1;
-  padding: 0 3em 2em 0;
+  padding: 0 3em 0 2em;
 }
 
 .ImageTextSection-module__YU9_jq__heading {
   margin: 0 0 16px;
+  font-size: 3em;
 }
 
 .ImageTextSection-module__YU9_jq__body {
@@ -52,6 +53,11 @@
 @media (max-width: 768px) {
   .ImageTextSection-module__YU9_jq__layout, .ImageTextSection-module__YU9_jq__layoutReverse {
     flex-direction: column;
+  }
+
+  .ImageTextSection-module__YU9_jq__image {
+    width: 20em;
+    height: 20em;
   }
 }
 
