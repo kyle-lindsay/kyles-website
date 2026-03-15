@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/ui.css"],"sourcesContent":[".buttonLink {\n  display: inline-block;\n  padding: 12px 20px;\n  border: 1px solid #000;\n  border-radius: 8px;\n  text-decoration: none;\n  color: inherit;\n}\n\n.buttonLink:hover {\n  opacity: 0.85;\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AASA"}}]
+}
