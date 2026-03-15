@@ -299,13 +299,10 @@ body {
 }
 
 /* [project]/components/layout/Header.module.css [app-client] (css) */
-.Header-module__KHjLKa__header {
-  border-bottom: 1px solid #eee;
-}
-
 .Header-module__KHjLKa__nav {
-  gap: 20px;
-  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  gap: 40px;
+  padding: 20px;
   display: flex;
 }
 
@@ -316,6 +313,11 @@ body {
 
 .Header-module__KHjLKa__link:hover {
   opacity: .7;
+}
+
+.Header-module__KHjLKa__pageTitle {
+  padding: 20px 40px;
+  font-size: 48px;
 }
 
 /* [project]/components/layout/Container.module.css [app-client] (css) */
