@@ -1,0 +1,51 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+
+.layoutReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 32px;
+  align-items: center;
+}
+
+.imageWrap {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.text {
+  flex: 1;
+}
+
+.heading {
+  margin: 0 0 16px;
+}
+
+.body {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .layout,
+  .layoutReverse {
+    flex-direction: column;
+  }
+}
