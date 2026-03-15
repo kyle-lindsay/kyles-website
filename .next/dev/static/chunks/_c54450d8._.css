@@ -9,7 +9,7 @@ body {
 
 /* [project]/app/ui.css [app-client] (css) */
 .buttonLink {
-  border: 1px solid var(--col-accent);
+  border: 2px solid var(--col-accent);
   color: var(--col-text);
   border-radius: 8px;
   padding: 12px 20px;
@@ -21,12 +21,19 @@ body {
   opacity: .85;
 }
 
+.buttonLink:visited {
+  opacity: 0;
+  color: var(--col-accent-dark);
+  border: 2px solid var(--col-accent-dark);
+}
+
 /* [project]/app/theme.css [app-client] (css) */
 :root {
   --col-bg: #fff;
   --col-text: #111;
   --col-border: #e5e5e5;
   --col-accent: #2563eb;
+  --col-accent-dark: #5128c3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,9 +74,9 @@ body {
 .Container-module__7rDl1q__container {
   width: 100%;
   max-width: 100%;
+  padding-left: 2erm;
   margin: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-right: 2rem;
 }
 
 /* [project]/components/layout/Footer.module.css [app-client] (css) */

@@ -39,7 +39,7 @@ export function ImageTextSection({ section }: { section: any }) {
       )}
 
       {section.fields.buttonLabel && section.fields.buttonLink && (
-        <Link href={section.fields.buttonLink} className={styles.button}>
+        <Link href={section.fields.buttonLink} className="buttonLink">
           {section.fields.buttonLabel}
         </Link>
       )}

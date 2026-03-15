@@ -1,6 +1,6 @@
 /* [project]/app/ui.css [app-client] (css) */
 .buttonLink {
-  border: 1px solid var(--col-accent);
+  border: 2px solid var(--col-accent);
   color: var(--col-text);
   border-radius: 8px;
   padding: 12px 20px;
@@ -10,6 +10,12 @@
 
 .buttonLink:hover {
   opacity: .85;
+}
+
+.buttonLink:visited {
+  opacity: 0;
+  color: var(--col-accent-dark);
+  border: 2px solid var(--col-accent-dark);
 }
 
 /*# sourceMappingURL=app_ui_css_bad6b30c._.single.css.map*/

@@ -1,14 +1,14 @@
 .layout {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2em;
   align-items: center;
 }
 
 .layoutReverse {
   display: flex;
   flex-direction: row-reverse;
-  gap: 32px;
+  gap: 2em;
   align-items: center;
 }
 

@@ -3,6 +3,7 @@
   --col-text: #111111;
   --col-border: #e5e5e5;
   --col-accent: #2563eb;
+  --col-accent-dark: #5128c3;
 }
 
 @media (prefers-color-scheme: dark) {

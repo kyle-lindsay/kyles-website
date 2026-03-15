@@ -1,7 +1,7 @@
 /* [project]/components/layout/Section.module.css [app-client] (css) */
 .Section-module__ELoAjW__section {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 /* [project]/components/sections/TextSection.module.css [app-client] (css) */
@@ -57,14 +57,14 @@
 .ImageTextSection-module__YU9_jq__layout {
   flex-direction: row;
   align-items: center;
-  gap: 32px;
+  gap: 2em;
   display: flex;
 }
 
 .ImageTextSection-module__YU9_jq__layoutReverse {
   flex-direction: row-reverse;
   align-items: center;
-  gap: 32px;
+  gap: 2em;
   display: flex;
 }
 
