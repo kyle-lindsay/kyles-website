@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { draftMode } from "next/headers";
 import { getNavigation } from "@/lib/getNavigation";
+import "./ui.css";
 
 export const metadata = {
   title: "Kyle's Website",
