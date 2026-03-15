@@ -8,7 +8,7 @@
 .layoutReverse {
   display: flex;
   flex-direction: row-reverse;
-  gap: 2em;
+  gap: 6em;
   align-items: center;
 }
 
@@ -17,14 +17,17 @@
 }
 
 .image {
-  width: 100%;
-  height: auto;
+  width: 30em;
+  height:30em;
   border-radius: 12px;
+  position: relative;
+  overflow: hidden;
 }
 
 .text {
   flex: 1;
   color: var(--col-text);
+  padding: 0 3em 2em 0;
 }
 
 .heading {

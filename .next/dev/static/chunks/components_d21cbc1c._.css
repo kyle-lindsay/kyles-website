@@ -15,6 +15,7 @@
 }
 
 .TextSection-module__Y1l6wG__body {
+  font-size: 1.2em;
   line-height: 1.6;
 }
 
@@ -64,7 +65,7 @@
 .ImageTextSection-module__YU9_jq__layoutReverse {
   flex-direction: row-reverse;
   align-items: center;
-  gap: 2em;
+  gap: 6em;
   display: flex;
 }
 
@@ -74,13 +75,16 @@
 
 .ImageTextSection-module__YU9_jq__image {
   border-radius: 12px;
-  width: 100%;
-  height: auto;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  overflow: hidden;
 }
 
 .ImageTextSection-module__YU9_jq__text {
   color: var(--col-text);
   flex: 1;
+  padding: 0 3em 2em 0;
 }
 
 .ImageTextSection-module__YU9_jq__heading {

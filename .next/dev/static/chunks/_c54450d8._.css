@@ -47,7 +47,7 @@ body {
 .Header-module__KHjLKa__nav {
   border-bottom: 1px solid var(--col-border);
   gap: 40px;
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
 }
 
@@ -68,6 +68,12 @@ body {
   color: var(--col-accent);
   padding: 20px 40px;
   font-size: 4em;
+}
+
+@media (max-width: 768px) {
+  .Header-module__KHjLKa__pageTitle {
+    font-size: 2em;
+  }
 }
 
 /* [project]/components/layout/Container.module.css [app-client] (css) */
