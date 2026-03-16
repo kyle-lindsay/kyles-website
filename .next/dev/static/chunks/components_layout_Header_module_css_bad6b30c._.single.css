@@ -1,9 +1,14 @@
 /* [project]/components/layout/Header.module.css [app-client] (css) */
+.Header-module__KHjLKa__header {
+  max-width: 100%;
+}
+
 .Header-module__KHjLKa__nav {
   border-bottom: 1px solid var(--col-border);
   z-index: 10;
   background-color: var(--col-bg);
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 3em;
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -25,6 +30,7 @@
 }
 
 .Header-module__KHjLKa__pageTitle {
+  width: fit-content;
   color: var(--col-accent);
   padding: 20px 40px;
   font-size: 4em;
@@ -34,6 +40,10 @@
   .Header-module__KHjLKa__pageTitle {
     margin-top: 2em;
     font-size: 2em;
+  }
+
+  .Header-module__KHjLKa__nav {
+    gap: 2em;
   }
 }
 

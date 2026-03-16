@@ -1,6 +1,10 @@
+.header {
+    max-width:100%;
+}
+
 .nav {
     display: flex;
-    gap: 40px;
+    gap: 3em;
     padding: 20px 40px;
     border-bottom: 1px solid var(--col-border);
     width:100%;
@@ -8,6 +12,7 @@
     z-index: 10;
     background-color: var(--col-bg);
     top:0;
+    flex-wrap: wrap;
 }
 
 .nav > * {
@@ -26,6 +31,7 @@
 .pageTitle {
     font-size: 4em;
     padding: 20px 40px;
+    width:fit-content;
     color: var(--col-accent);
 }
 
@@ -33,5 +39,9 @@
     .pageTitle {
         font-size: 2em;
         margin-top: 2em;
+    }
+
+    .nav {
+        gap: 2em;
     }
 }

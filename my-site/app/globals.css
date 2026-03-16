@@ -3,6 +3,5 @@ body {
   color: var(--col-text);
   font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
-  width:100%;
   overflow-x: hidden;
 }
