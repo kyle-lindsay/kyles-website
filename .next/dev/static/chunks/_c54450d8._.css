@@ -77,6 +77,7 @@ body {
 
 @media (max-width: 768px) {
   .Header-module__KHjLKa__pageTitle {
+    margin-top: 2em;
     font-size: 2em;
   }
 }
