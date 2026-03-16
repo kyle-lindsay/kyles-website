@@ -3,6 +3,7 @@
     gap: 40px;
     padding: 20px 40px;
     border-bottom: 1px solid var(--col-border);
+    width:100%;
 }
 
 .nav > * {

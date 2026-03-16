@@ -1,0 +1,57 @@
+/* [project]/components/layout/Section.module.css [app-client] (css) */
+.Section-module__ELoAjW__section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* [project]/components/sections/TextSection.module.css [app-client] (css) */
+.TextSection-module__Y1l6wG__content {
+  max-width: 100%;
+  color: var(--col-text);
+}
+
+.TextSection-module__Y1l6wG__heading {
+  margin: 0 0 16px;
+}
+
+.TextSection-module__Y1l6wG__body {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* [project]/components/sections/HeroSection.module.css [app-client] (css) */
+.HeroSection-module___Axouq__hero {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.HeroSection-module___Axouq__imageWrap {
+  width: 100%;
+}
+
+.HeroSection-module___Axouq__image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.HeroSection-module___Axouq__content {
+  max-width: 800px;
+}
+
+.HeroSection-module___Axouq__heading {
+  color: var(--col-text);
+  margin: 0 0 16px;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.HeroSection-module___Axouq__subheadline {
+  color: var(--col-text);
+  margin: 0 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=components_e8c9a334._.css.map*/

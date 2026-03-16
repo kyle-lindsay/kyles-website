@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { SmartLink } from "@/components/ui/SmartLink";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
@@ -39,9 +39,9 @@ export function ImageTextSection({ section }: { section: any }) {
       )}
 
       {section.fields.buttonLabel && section.fields.buttonLink && (
-        <Link href={section.fields.buttonLink} className="buttonLink">
+        <SmartLink href={section.fields.buttonLink} className="buttonLink">
           {section.fields.buttonLabel}
-        </Link>
+        </SmartLink>
       )}
     </div>
   );

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SmartLink } from "@/components/ui/SmartLink";
 import Image from "next/image";
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
@@ -32,9 +32,9 @@ export function HeroSection({ section }: { section: any }) {
             )}
 
             {section.fields.buttonLabel && section.fields.buttonLink && (
-              <Link href={section.fields.buttonLink} className="buttonLink">
+              <SmartLink href={section.fields.buttonLink} className="buttonLink">
                 {section.fields.buttonLabel}
-              </Link>
+              </SmartLink>
             )}
           </div>
         </div>

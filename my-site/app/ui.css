@@ -5,6 +5,7 @@
   border-radius: 8px;
   text-decoration: none;
   color: var(--col-text);
+  text-decoration: none;
 }
 
 .buttonLink:hover {
@@ -12,7 +13,6 @@
 }
 
 .buttonLink:visited  {
-  opacity: 0.00;
-  color: var(--col-accent-dark);
-  border: 2px solid var(--col-accent-dark);
+  color: var(--col-accent);
+  border: 2px solid var(--col-accent);
 }

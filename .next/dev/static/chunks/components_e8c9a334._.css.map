@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/kyle/Documents/Kyle%27s%20Website/my-site/components/layout/Section.module.css"],"sourcesContent":[".section {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/kyle/Documents/Kyle%27s%20Website/my-site/components/sections/TextSection.module.css"],"sourcesContent":[".content {\n  max-width: 100%;\n  color: var(--col-text);\n}\n\n.heading {\n  margin: 0 0 16px;\n}\n\n.body {\n  line-height: 1.6;\n  font-size: 1.2em;\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;AAIA"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/kyle/Documents/Kyle%27s%20Website/my-site/components/sections/HeroSection.module.css"],"sourcesContent":[".hero {\n  display: flex;\n  flex-direction: column;\n  gap: 24px;\n}\n\n.imageWrap {\n  width: 100%;\n}\n\n.image {\n  width: 100%;\n  height: auto;\n  border-radius: 12px;\n}\n\n.content {\n  max-width: 800px;\n}\n\n.heading {\n  margin: 0 0 16px;\n  font-size: 2.5rem;\n  line-height: 1.1;\n  color: var(--col-text);\n}\n\n.subheadline {\n  margin: 0 0 20px;\n  font-size: 1.2rem;\n  line-height: 1.5;\n  color: var(--col-text);\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;AAMA;;;;AAIA;;;;;;;AAOA"}}]
+}

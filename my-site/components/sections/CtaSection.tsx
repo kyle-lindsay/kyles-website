@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SmartLink } from "@/components/ui/SmartLink";
 
 export function CtaSection({ section }: { section: any }) {
   return (
@@ -17,18 +17,9 @@ export function CtaSection({ section }: { section: any }) {
       )}
 
       {section.fields.buttonLabel && section.fields.buttonLink && (
-        <Link
-          href={section.fields.buttonLink}
-          style={{
-            display: "inline-block",
-            padding: "12px 20px",
-            border: "1px solid #000",
-            borderRadius: "8px",
-            textDecoration: "none",
-          }}
-        >
+        <SmartLink href={section.fields.buttonLink} className="buttonLink">
           {section.fields.buttonLabel}
-        </Link>
+        </SmartLink>
       )}
     </section>
   );

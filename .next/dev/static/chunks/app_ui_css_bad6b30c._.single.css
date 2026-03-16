@@ -13,9 +13,8 @@
 }
 
 .buttonLink:visited {
-  opacity: 0;
-  color: var(--col-accent-dark);
-  border: 2px solid var(--col-accent-dark);
+  color: var(--col-accent);
+  border: 2px solid var(--col-accent);
 }
 
 /*# sourceMappingURL=app_ui_css_bad6b30c._.single.css.map*/

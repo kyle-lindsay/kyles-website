@@ -2,6 +2,7 @@
 .Header-module__KHjLKa__nav {
   border-bottom: 1px solid var(--col-border);
   gap: 40px;
+  width: 100%;
   padding: 20px 40px;
   display: flex;
 }

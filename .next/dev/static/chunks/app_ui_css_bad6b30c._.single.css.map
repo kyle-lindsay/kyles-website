@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/ui.css"],"sourcesContent":[".buttonLink {\n  display: inline-block;\n  padding: 12px 20px;\n  border: 2px solid var(--col-accent);\n  border-radius: 8px;\n  text-decoration: none;\n  color: var(--col-text);\n}\n\n.buttonLink:hover {\n  opacity: 0.85;\n}\n\n.buttonLink:visited  {\n  opacity: 0.00;\n  color: var(--col-accent-dark);\n  border: 2px solid var(--col-accent-dark);\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;AAIA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/ui.css"],"sourcesContent":[".buttonLink {\n  display: inline-block;\n  padding: 12px 20px;\n  border: 2px solid var(--col-accent);\n  border-radius: 8px;\n  text-decoration: none;\n  color: var(--col-text);\n  text-decoration: none;\n}\n\n.buttonLink:hover {\n  opacity: 0.85;\n}\n\n.buttonLink:visited  {\n  color: var(--col-accent);\n  border: 2px solid var(--col-accent);\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAUA;;;;AAIA"}}]
 }
