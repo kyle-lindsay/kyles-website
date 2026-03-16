@@ -1,10 +1,14 @@
 /* [project]/components/layout/Header.module.css [app-client] (css) */
 .Header-module__KHjLKa__nav {
   border-bottom: 1px solid var(--col-border);
+  z-index: 10;
+  background-color: var(--col-bg);
   gap: 40px;
   width: 100%;
   padding: 20px 40px;
   display: flex;
+  position: fixed;
+  top: 0;
 }
 
 .Header-module__KHjLKa__nav > * {
