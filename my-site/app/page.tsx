@@ -59,8 +59,6 @@ export default async function Home() {
         />
       )}
 
-      <h1>{page.fields.title as string}</h1>
-
       {sections.map((section, i) => (
         <SectionRenderer key={i} section={section} />
       ))}
