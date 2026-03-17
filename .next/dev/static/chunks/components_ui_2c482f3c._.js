@@ -22,6 +22,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 const ITERATIONS = 20;
 const GAP = 150;
+const DELAY = 1000;
 function TitleEffect({ text }) {
     _s();
     let length = text.length;
@@ -34,7 +35,7 @@ function TitleEffect({ text }) {
                     "TitleEffect.useEffect.timer": ()=>{
                         setTitle(playEffect(i, length, text));
                     }
-                }["TitleEffect.useEffect.timer"], GAP * i + 1);
+                }["TitleEffect.useEffect.timer"], DELAY + GAP * i + 1);
                 timers.push(timer);
             }
             return ({
@@ -51,7 +52,7 @@ function TitleEffect({ text }) {
         children: title
     }, void 0, false, {
         fileName: "[project]/components/ui/useTitleEffect.tsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 12
     }, this);
 }

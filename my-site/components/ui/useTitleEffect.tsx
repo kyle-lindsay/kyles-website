@@ -5,6 +5,7 @@ import styles from "./TitleEffect.module.css";
 
 const ITERATIONS: number = 20;
 const GAP: number = 150;
+const DELAY = 1000;
 
 export function TitleEffect({ text }: { text: string }) {
   let length = text.length;
@@ -16,7 +17,7 @@ export function TitleEffect({ text }: { text: string }) {
     for (let i=0; i< ITERATIONS; i++) {
       const timer = setTimeout(() => {
         setTitle(playEffect(i, length, text));
-      }, GAP * i + 1);
+      }, DELAY + GAP * i + 1);
       timers.push(timer);
     }
 
