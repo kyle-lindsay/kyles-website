@@ -73,7 +73,6 @@ body {
 
 .Header-module__KHjLKa__nav > * {
   color: var(--col-text);
-  width: fit-content;
 }
 
 .Header-module__KHjLKa__link {
@@ -94,10 +93,6 @@ body {
 /* [project]/components/layout/Container.module.css [app-client] (css) */
 .Container-module__7rDl1q__container {
   width: 100%;
-  max-width: 100%;
-  padding-left: 2erm;
-  margin: 0;
-  padding-right: 2rem;
 }
 
 /* [project]/components/layout/Footer.module.css [app-client] (css) */

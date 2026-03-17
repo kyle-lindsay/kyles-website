@@ -1,7 +1,7 @@
 .pageTitle {
-    font-size: 5em;
+    font-size: 6em;
     padding: 20px 40px;
-    width:fit-content;
+    width:100%;
     color: var(--col-text);
     font-family: monospace;
     text-wrap:nowrap;
@@ -9,8 +9,9 @@
 
 @media(max-width: 768px) {
     .pageTitle {
-        font-size: 1.6em;
+        font-size: 2em;
         margin-top: 2em;
+        padding: 0;
         text-align: center;
     }
 }
