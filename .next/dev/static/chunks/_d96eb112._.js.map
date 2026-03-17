@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/kyle/Documents/Kyle%27s%20Website/my-site/lib/titleEffect.ts"],"sourcesContent":["import { useEffect, useState } from \"react\";\n\nexport function titleEffect(\n  initial: string,\n  updated: string,\n  delay: number\n) {\n  const [text, setText] = useState(initial);\n\n  useEffect(() => {\n    const timer = setTimeout(() => {\n      setText(updated);\n    }, delay);\n\n    return () => clearTimeout(timer);\n  }, [updated, delay]);\n\n  return text;\n}"],"names":[],"mappings":";;;;AAAA;;;AAEO,SAAS,YACd,OAAe,EACf,OAAe,EACf,KAAa;;IAEb,MAAM,CAAC,MAAM,QAAQ,GAAG,IAAA,yKAAQ,EAAC;IAEjC,IAAA,0KAAS;iCAAC;YACR,MAAM,QAAQ;+CAAW;oBACvB,QAAQ;gBACV;8CAAG;YAEH;yCAAO,IAAM,aAAa;;QAC5B;gCAAG;QAAC;QAAS;KAAM;IAEnB,OAAO;AACT;GAhBgB"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/kyle/Documents/Kyle%27s%20Website/my-site/components/ui/useTitleEffect.tsx"],"sourcesContent":["\"use client\";\n\nimport { titleEffect } from \"@/lib/titleEffect\";\n\ntype DelayedTitleProps = {\n  initial: string;\n  updated: string;\n  delay: number;\n};\n\nexport function TitleEffect({\n  initial,\n  updated,\n  delay,\n}: DelayedTitleProps) {\n  const title = titleEffect(initial, updated, delay);\n\n  return <h1>{title}</h1>;\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAUO,SAAS,YAAY,EAC1B,OAAO,EACP,OAAO,EACP,KAAK,EACa;IAClB,MAAM,QAAQ,IAAA,oIAAW,EAAC,SAAS,SAAS;IAE5C,qBAAO,6LAAC;kBAAI;;;;;;AACd;KARgB"}}]
+}

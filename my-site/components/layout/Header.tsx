@@ -24,7 +24,6 @@ export async function Header() {
           ))}
         </nav>
       </Container>
-      <h1 className={styles.pageTitle}>kylelindsay.dev</h1>
     </header>
   );
 }

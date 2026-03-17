@@ -1,6 +1,7 @@
 import { draftMode } from "next/headers";
 import { getClient } from "@/lib/contentful";
 import { SectionRenderer } from "@/components/SectionRenderer";
+import { TitleEffect } from "@/components/ui/useTitleEffect";
 
 export const revalidate = 60;
 
@@ -51,6 +52,13 @@ export default async function Home() {
 
   return (
     <main style={{ padding: "40px" }}>
+      
+  
+    <TitleEffect
+      text={page.fields.title as string}
+      duration={3000}
+    />
+
       {imageUrl && (
         <img
           src={`https:${imageUrl}`}
