@@ -1,0 +1,137 @@
+/* [project]/components/layout/Section.module.css [app-client] (css) */
+.Section-module__ELoAjW__section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* [project]/components/sections/TextSection.module.css [app-client] (css) */
+.TextSection-module__Y1l6wG__content {
+  max-width: 100%;
+  color: var(--col-text);
+}
+
+.TextSection-module__Y1l6wG__heading {
+  margin: 0 0 16px;
+}
+
+.TextSection-module__Y1l6wG__body {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* [project]/components/sections/HeroSection.module.css [app-client] (css) */
+.HeroSection-module___Axouq__hero {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.HeroSection-module___Axouq__imageWrap {
+  width: 100%;
+}
+
+.HeroSection-module___Axouq__image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.HeroSection-module___Axouq__content {
+  max-width: 800px;
+}
+
+.HeroSection-module___Axouq__heading {
+  color: var(--col-text);
+  margin: 0 0 16px;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.HeroSection-module___Axouq__subheadline {
+  color: var(--col-text);
+  margin: 0 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* [project]/components/sections/ImageTextSection.module.css [app-client] (css) */
+.ImageTextSection-module__YU9_jq__layout {
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+  display: flex;
+}
+
+.ImageTextSection-module__YU9_jq__layoutReverse {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 6em;
+  display: flex;
+}
+
+.ImageTextSection-module__YU9_jq__imageWrap {
+  flex: 1;
+}
+
+.ImageTextSection-module__YU9_jq__image {
+  border-radius: 12px;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  overflow: hidden;
+}
+
+.ImageTextSection-module__YU9_jq__text {
+  color: var(--col-text);
+  flex: 1;
+  padding: 0 3em 0 2em;
+}
+
+.ImageTextSection-module__YU9_jq__heading {
+  margin: 0 0 16px;
+  font-size: 3em;
+}
+
+.ImageTextSection-module__YU9_jq__body {
+  color: var(--col-text);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ImageTextSection-module__YU9_jq__button {
+  border: 1px solid var(--col-border);
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .ImageTextSection-module__YU9_jq__layout, .ImageTextSection-module__YU9_jq__layoutReverse {
+    flex-direction: column;
+  }
+
+  .ImageTextSection-module__YU9_jq__image {
+    width: 20em;
+    height: 20em;
+  }
+}
+
+/* [project]/components/ui/TitleEffect.module.css [app-client] (css) */
+.TitleEffect-module__okmpVq__pageTitle {
+  width: fit-content;
+  color: var(--col-text);
+  padding: 20px 40px;
+  font-family: monospace;
+  font-size: 5em;
+}
+
+@media (max-width: 768px) {
+  .TitleEffect-module__okmpVq__pageTitle {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+  }
+}
+
+/*# sourceMappingURL=components_15337fc1._.css.map*/

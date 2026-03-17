@@ -1,0 +1,15 @@
+.pageTitle {
+    font-size: 5em;
+    padding: 20px 40px;
+    width:fit-content;
+    color: var(--col-text);
+    font-family: monospace;
+}
+
+@media(max-width: 768px) {
+    .pageTitle {
+        font-size: 2em;
+        margin-top: 2em;
+        text-align: center;
+    }
+}

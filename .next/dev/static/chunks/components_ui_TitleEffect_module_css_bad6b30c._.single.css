@@ -1,0 +1,18 @@
+/* [project]/components/ui/TitleEffect.module.css [app-client] (css) */
+.TitleEffect-module__okmpVq__pageTitle {
+  width: fit-content;
+  color: var(--col-text);
+  padding: 20px 40px;
+  font-family: monospace;
+  font-size: 5em;
+}
+
+@media (max-width: 768px) {
+  .TitleEffect-module__okmpVq__pageTitle {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+  }
+}
+
+/*# sourceMappingURL=components_ui_TitleEffect_module_css_bad6b30c._.single.css.map*/

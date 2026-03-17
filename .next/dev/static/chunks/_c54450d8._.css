@@ -7,6 +7,13 @@ body {
   overflow-x: hidden;
 }
 
+.pageTitle {
+  width: fit-content;
+  color: var(--col-accent);
+  padding: 20px 40px;
+  font-size: 4em;
+}
+
 /* [project]/app/ui.css [app-client] (css) */
 .buttonLink {
   border: 2px solid var(--col-accent);

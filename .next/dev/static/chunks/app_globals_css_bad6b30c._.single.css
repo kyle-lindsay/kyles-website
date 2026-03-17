@@ -7,4 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+.pageTitle {
+  width: fit-content;
+  color: var(--col-accent);
+  padding: 20px 40px;
+  font-size: 4em;
+}
+
 /*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

@@ -55,8 +55,7 @@ export default async function Home() {
       
   
     <TitleEffect
-      text={page.fields.title as string}
-      duration={3000}
+      text="kylelindsay.dev"
     />
 
       {imageUrl && (
