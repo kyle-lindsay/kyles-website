@@ -44,7 +44,7 @@ function generateString(length : number) : string {
 
 function playEffect(index: number, length: number, text: string) {
   let next: string = "";
-  if (ITERATIONS - index < length) {
+  if (ITERATIONS - index < length + 1) {
     next += text.slice(0, length - (ITERATIONS - index) + 1);
     length = (ITERATIONS - index);
   }

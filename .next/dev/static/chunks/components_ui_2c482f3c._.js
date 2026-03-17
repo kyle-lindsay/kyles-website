@@ -89,7 +89,7 @@ function generateString(length) {
 }
 function playEffect(index, length, text) {
     let next = "";
-    if (ITERATIONS - index < length) {
+    if (ITERATIONS - index < length + 1) {
         next += text.slice(0, length - (ITERATIONS - index) + 1);
         length = ITERATIONS - index;
     }
