@@ -2,16 +2,20 @@
 body {
   background: var(--col-bg);
   color: var(--col-text);
+  width: 100%;
   max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
-.pageTitle {
-  width: fit-content;
-  color: var(--col-accent);
-  padding: 20px 40px;
-  font-size: 4em;
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  html {
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

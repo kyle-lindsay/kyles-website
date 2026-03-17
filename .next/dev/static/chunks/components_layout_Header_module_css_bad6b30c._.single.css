@@ -18,6 +18,7 @@
 
 .Header-module__KHjLKa__nav > * {
   color: var(--col-text);
+  width: fit-content;
 }
 
 .Header-module__KHjLKa__link {
@@ -29,19 +30,7 @@
   opacity: .7;
 }
 
-.Header-module__KHjLKa__pageTitle {
-  width: fit-content;
-  color: var(--col-accent);
-  padding: 20px 40px;
-  font-size: 4em;
-}
-
 @media (max-width: 768px) {
-  .Header-module__KHjLKa__pageTitle {
-    margin-top: 2em;
-    font-size: 2em;
-  }
-
   .Header-module__KHjLKa__nav {
     gap: 2em;
   }

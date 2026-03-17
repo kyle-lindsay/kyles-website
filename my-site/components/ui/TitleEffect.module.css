@@ -4,11 +4,12 @@
     width:fit-content;
     color: var(--col-text);
     font-family: monospace;
+    text-wrap:nowrap;
 }
 
 @media(max-width: 768px) {
     .pageTitle {
-        font-size: 2em;
+        font-size: 1.6em;
         margin-top: 2em;
         text-align: center;
     }

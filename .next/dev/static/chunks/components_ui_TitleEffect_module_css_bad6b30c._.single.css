@@ -2,6 +2,7 @@
 .TitleEffect-module__okmpVq__pageTitle {
   width: fit-content;
   color: var(--col-text);
+  text-wrap: nowrap;
   padding: 20px 40px;
   font-family: monospace;
   font-size: 5em;
@@ -11,7 +12,7 @@
   .TitleEffect-module__okmpVq__pageTitle {
     text-align: center;
     margin-top: 2em;
-    font-size: 2em;
+    font-size: 1.6em;
   }
 }
 

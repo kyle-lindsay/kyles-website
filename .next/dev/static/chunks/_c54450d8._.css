@@ -2,16 +2,20 @@
 body {
   background: var(--col-bg);
   color: var(--col-text);
+  width: 100%;
   max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
-.pageTitle {
-  width: fit-content;
-  color: var(--col-accent);
-  padding: 20px 40px;
-  font-size: 4em;
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  html {
+    position: relative;
+  }
 }
 
 /* [project]/app/ui.css [app-client] (css) */
@@ -69,6 +73,7 @@ body {
 
 .Header-module__KHjLKa__nav > * {
   color: var(--col-text);
+  width: fit-content;
 }
 
 .Header-module__KHjLKa__link {
@@ -80,19 +85,7 @@ body {
   opacity: .7;
 }
 
-.Header-module__KHjLKa__pageTitle {
-  width: fit-content;
-  color: var(--col-accent);
-  padding: 20px 40px;
-  font-size: 4em;
-}
-
 @media (max-width: 768px) {
-  .Header-module__KHjLKa__pageTitle {
-    margin-top: 2em;
-    font-size: 2em;
-  }
-
   .Header-module__KHjLKa__nav {
     gap: 2em;
   }
