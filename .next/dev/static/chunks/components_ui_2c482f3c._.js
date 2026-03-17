@@ -72,7 +72,12 @@ function generateString(length) {
         '+',
         '%',
         '&',
-        '_'
+        '_',
+        '#',
+        '(',
+        ')',
+        ';',
+        ':'
     ];
     let string = "";
     for(let i = 0; i < length; i++){

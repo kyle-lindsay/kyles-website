@@ -30,7 +30,7 @@ export function TitleEffect({ text }: { text: string }) {
 }
 
 function generateString(length : number) : string {
-  const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_'];
+  const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_', '#', '(', ')', ';', ':'];
   let string: string = "";
 
   for(let i=0; i<length; i++) {
