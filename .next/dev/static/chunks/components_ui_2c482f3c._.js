@@ -22,7 +22,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 const ITERATIONS = 20;
 const GAP = 150;
-const DELAY = 1000;
+const DELAY = 700;
 function TitleEffect({ text }) {
     _s();
     let length = text.length;

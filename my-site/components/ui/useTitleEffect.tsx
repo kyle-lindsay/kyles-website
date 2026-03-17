@@ -5,7 +5,7 @@ import styles from "./TitleEffect.module.css";
 
 const ITERATIONS: number = 20;
 const GAP: number = 150;
-const DELAY = 1000;
+const DELAY = 700;
 
 export function TitleEffect({ text }: { text: string }) {
   let length = text.length;
