@@ -38,6 +38,7 @@
 .body {
   margin-bottom: 20px;
   line-height: 1.6;
+  font-size: 1.2em;
   color: var(--col-text);
 }
 
@@ -58,6 +59,14 @@
   .image {
     width: 20em;
     height: 20em;
+  }
+
+  .heading {
+    font-size:2em;
+  }
+
+  .body {
+    font-size: 1em;
   }
 
 }
