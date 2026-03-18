@@ -13,6 +13,6 @@
 }
 
 .buttonLink:visited  {
-  color: var(--col-accent);
+  color: var(--col-text);
   border: 2px solid var(--col-accent);
 }
