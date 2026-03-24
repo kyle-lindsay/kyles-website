@@ -1,4 +1,8 @@
 /* [project]/app/globals.css [app-client] (css) */
+*, :before, :after {
+  box-sizing: border-box;
+}
+
 body {
   background: var(--col-bg);
   color: var(--col-text);

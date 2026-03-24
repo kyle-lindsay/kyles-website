@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["body {\n  background: var(--col-bg);\n  color: var(--col-text);\n  font-family: Arial, Helvetica, sans-serif;\n  max-width: 100%;\n  width:100%;\n  overflow-x: hidden;\n}\n\n@media(max-width: 768px) {\n  html, body {\n    overflow-x: hidden;\n  }\n\n  html {\n    position:relative;\n  }\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;EACE;;;;EAIA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["*, ::before, ::after {\n  box-sizing: border-box;\n}\n\nbody {\n  background: var(--col-bg);\n  color: var(--col-text);\n  font-family: Arial, Helvetica, sans-serif;\n  max-width: 100%;\n  width:100%;\n  overflow-x: hidden;\n}\n\n@media(max-width: 768px) {\n  html, body {\n    overflow-x: hidden;\n  }\n\n  html {\n    position:relative;\n  }\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;;;;AASA;EACE;;;;EAIA"}}]
 }
