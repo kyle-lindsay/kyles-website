@@ -2,6 +2,7 @@ import { draftMode } from "next/headers";
 import Image from "next/image";
 import { getClient } from "@/lib/contentful";
 import { SectionRenderer } from "@/components/SectionRenderer";
+import { ResponsiveTitleEffect } from "@/components/ui/ResponsiveTitleEffect";
 
 export const revalidate = 60;
 
@@ -62,6 +63,9 @@ export default async function Page({
 
   return (
     <main style={{ padding: "40px" }}>
+
+      <ResponsiveTitleEffect text="kylelindsay.dev" />
+
       {imageUrl && (
         <Image
           src={`https:${imageUrl}`}

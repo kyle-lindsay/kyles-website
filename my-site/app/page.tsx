@@ -53,10 +53,9 @@ export default async function Home() {
   return (
     <main style={{ padding: "40px" }}>
       
-    
-      <TitleEffect
-        text="kylelindsay.dev"
-      />
+        <TitleEffect
+          text="kylelindsay.dev"
+        />
 
       {imageUrl && (
         <img
