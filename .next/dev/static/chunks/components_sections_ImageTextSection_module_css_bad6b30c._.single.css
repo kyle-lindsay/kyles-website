@@ -70,4 +70,10 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  .ImageTextSection-module__YU9_jq__image {
+    box-shadow: 0 4px 8px #00000080, 0 6px 20px #00000080;
+  }
+}
+
 /*# sourceMappingURL=components_sections_ImageTextSection_module_css_bad6b30c._.single.css.map*/

@@ -127,6 +127,12 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  .ImageTextSection-module__YU9_jq__image {
+    box-shadow: 0 4px 8px #00000080, 0 6px 20px #00000080;
+  }
+}
+
 /* [project]/components/ui/TitleEffect.module.css [app-client] (css) */
 .TitleEffect-module__okmpVq__pageTitle {
   width: 100%;
