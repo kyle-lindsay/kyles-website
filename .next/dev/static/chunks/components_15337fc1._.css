@@ -151,11 +151,12 @@
 @media (max-width: 768px) {
   .TitleEffect-module__okmpVq__pageTitle {
     text-align: center;
+    z-index: 0;
     width: 100%;
     margin-top: 2em;
     padding: 0;
     font-size: 2em;
-    position: relative;
+    position: static;
   }
 }
 

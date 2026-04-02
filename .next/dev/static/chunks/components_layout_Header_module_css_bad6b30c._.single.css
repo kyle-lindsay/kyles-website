@@ -5,7 +5,7 @@
 
 .Header-module__KHjLKa__nav {
   border-bottom: 1px solid var(--col-border);
-  z-index: 10;
+  z-index: 1000;
   background-color: var(--col-bg);
   flex-wrap: wrap;
   gap: 3em;
