@@ -12,6 +12,7 @@
 
 .TextSection-module__Y1l6wG__heading {
   margin: 0 0 16px;
+  font-size: 2.5em;
 }
 
 .TextSection-module__Y1l6wG__body {
@@ -95,6 +96,7 @@
 .ImageTextSection-module__YU9_jq__body {
   color: var(--col-text);
   margin-bottom: 20px;
+  font-size: 1.2em;
   line-height: 1.6;
 }
 
@@ -114,6 +116,20 @@
   .ImageTextSection-module__YU9_jq__image {
     width: 20em;
     height: 20em;
+  }
+
+  .ImageTextSection-module__YU9_jq__heading {
+    font-size: 2em;
+  }
+
+  .ImageTextSection-module__YU9_jq__body {
+    font-size: 1em;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .ImageTextSection-module__YU9_jq__image {
+    box-shadow: 0 4px 8px #00000080, 0 6px 20px #00000080;
   }
 }
 
