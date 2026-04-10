@@ -52,32 +52,16 @@ function TitleEffect({ text }) {
         children: title
     }, void 0, false, {
         fileName: "[project]/components/ui/useTitleEffect.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 12
     }, this);
 }
 _s(TitleEffect, "hMVEEWbe1PgS4lnVL4KlCTdf34w=");
 _c = TitleEffect;
 function generateString(length) {
+    //const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_', '#', '(', ')', ';', ':'];
     const chars = [
-        '<',
-        '>',
-        '$',
-        '!',
-        '*',
-        "?",
-        '/',
-        '-',
-        '=',
-        '+',
-        '%',
-        '&',
-        '_',
-        '#',
-        '(',
-        ')',
-        ';',
-        ':'
+        '#'
     ];
     let string = "";
     for(let i = 0; i < length; i++){
@@ -89,11 +73,12 @@ function generateString(length) {
 }
 function playEffect(index, length, text) {
     let next = "";
-    if (ITERATIONS - index < length + 1) {
-        next += text.slice(0, length - (ITERATIONS - index) + 1);
-        length = ITERATIONS - index;
+    let titleCount = ITERATIONS - index;
+    if (titleCount < length + 1) {
+        next += text.slice(0, length - titleCount + 1);
+        length = titleCount - 1;
     }
-    next += generateString(length - 1);
+    next += generateString(length);
     return next;
 }
 var _c;

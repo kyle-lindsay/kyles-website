@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { isMapIterator } from "util/types";
 import styles from "./TitleEffect.module.css";
+import { title } from "process";
 
 const ITERATIONS: number = 20;
 const GAP: number = 150;
@@ -30,7 +31,8 @@ export function TitleEffect({ text }: { text: string }) {
 }
 
 function generateString(length : number) : string {
-  const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_', '#', '(', ')', ';', ':'];
+  //const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_', '#', '(', ')', ';', ':'];
+  const chars = ['#'];
   let string: string = "";
 
   for(let i=0; i<length; i++) {
@@ -44,10 +46,11 @@ function generateString(length : number) : string {
 
 function playEffect(index: number, length: number, text: string) {
   let next: string = "";
-  if (ITERATIONS - index < length + 1) {
-    next += text.slice(0, length - (ITERATIONS - index) + 1);
-    length = (ITERATIONS - index);
+  let titleCount = ITERATIONS - index;
+  if (titleCount < length + 1) {
+    next += text.slice(0, length - titleCount + 1);
+    length = titleCount - 1;
   }
-    next += generateString(length - 1);
+  next += generateString(length);
   return next;
 }
