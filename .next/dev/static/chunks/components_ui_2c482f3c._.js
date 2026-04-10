@@ -59,9 +59,25 @@ function TitleEffect({ text }) {
 _s(TitleEffect, "hMVEEWbe1PgS4lnVL4KlCTdf34w=");
 _c = TitleEffect;
 function generateString(length) {
-    //const chars = ['<', '>', '$', '!', '*', "?", '/', '-', '=', '+', '%', '&', '_', '#', '(', ')', ';', ':'];
     const chars = [
-        '#'
+        '<',
+        '>',
+        '$',
+        '!',
+        '*',
+        "?",
+        '/',
+        '-',
+        '=',
+        '+',
+        '%',
+        '&',
+        '_',
+        '#',
+        '(',
+        ')',
+        ';',
+        ':'
     ];
     let string = "";
     for(let i = 0; i < length; i++){

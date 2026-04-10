@@ -1,19 +1,15 @@
 import { SmartLink } from "@/components/ui/SmartLink";
+import styles from "./CtaSection.module.css";
 
 export function CtaSection({ section }: { section: any }) {
   return (
     <section
-      style={{
-        marginTop: "40px",
-        padding: "32px",
-        border: "1px solid #ddd",
-        borderRadius: "12px",
-      }}
+      className={styles.section}
     >
-      <h2 style={{ marginBottom: "12px" }}>{section.fields.title}</h2>
+      <h2>{section.fields.title}</h2>
 
       {section.fields.text && (
-        <p style={{ marginBottom: "20px" }}>{section.fields.text}</p>
+        <p>{section.fields.text}</p>
       )}
 
       {section.fields.buttonLabel && section.fields.buttonLink && (

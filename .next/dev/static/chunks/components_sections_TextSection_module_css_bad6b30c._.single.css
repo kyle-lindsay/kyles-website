@@ -2,10 +2,10 @@
 .TextSection-module__Y1l6wG__content {
   max-width: 100%;
   color: var(--col-text);
+  padding: 0;
 }
 
 .TextSection-module__Y1l6wG__heading {
-  margin: 0 0 16px;
   font-size: 2.5em;
 }
 
