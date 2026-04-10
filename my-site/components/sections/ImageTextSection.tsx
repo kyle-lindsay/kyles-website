@@ -6,6 +6,7 @@ import { Container } from "@/components/layout/Container";
 import styles from "./ImageTextSection.module.css";
 
 export function ImageTextSection({ section }: { section: any }) {
+  const id = section.fields.id != undefined ? section.fields.id : '/';
   const image = section.fields.image as any;
   const imageUrl = image?.fields?.file?.url;
   const imageAlt = image?.fields?.title || section.fields.heading || "Section image";
@@ -29,7 +30,7 @@ export function ImageTextSection({ section }: { section: any }) {
   const textBlock = (
     <div className={styles.text}>
       {section.fields.heading && (
-        <h2 className={styles.heading}>{section.fields.heading}</h2>
+        <h2 id={id}  className={styles.heading}>{section.fields.heading}</h2>
       )}
 
       {section.fields.body && (
