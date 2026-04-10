@@ -1,7 +1,7 @@
 /* [project]/components/layout/Section.module.css [app-client] (css) */
 .Section-module__ELoAjW__section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* [project]/components/sections/TextSection.module.css [app-client] (css) */
@@ -12,6 +12,7 @@
 }
 
 .TextSection-module__Y1l6wG__heading {
+  margin: 4rem 0 0;
   font-size: 2.5em;
 }
 
@@ -60,7 +61,7 @@
   border-left: 1px solid #fff;
   height: fit-content;
   margin: 4em 1em;
-  padding: .5em 1em;
+  padding: .25em 1em;
 }
 
 /* [project]/components/sections/ImageTextSection.module.css [app-client] (css) */
@@ -68,6 +69,8 @@
   flex-direction: row;
   align-items: center;
   gap: 2em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
 }
 
@@ -75,6 +78,8 @@
   flex-direction: row-reverse;
   align-items: center;
   gap: 6em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
 }
 

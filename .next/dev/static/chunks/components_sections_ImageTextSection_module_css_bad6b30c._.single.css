@@ -3,6 +3,8 @@
   flex-direction: row;
   align-items: center;
   gap: 2em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
 }
 
@@ -10,6 +12,8 @@
   flex-direction: row-reverse;
   align-items: center;
   gap: 6em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
 }
 
