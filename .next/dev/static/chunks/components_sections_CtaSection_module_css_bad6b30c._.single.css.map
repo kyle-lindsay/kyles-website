@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/sections/CtaSection.module.css"],"sourcesContent":[".section {\n    border-left: 1px solid white;\n    margin: 4em 1em;\n    padding: 0.25em 1em;\n    height: fit-content;\n}"],"names":[],"mappings":"AAAA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/sections/CtaSection.module.css"],"sourcesContent":[".section {\n    border-left: 1px solid var(--col-text);\n    margin: 4em 1em;\n    padding: 0.25em 1em;\n    height: fit-content;\n}"],"names":[],"mappings":"AAAA"}}]
 }

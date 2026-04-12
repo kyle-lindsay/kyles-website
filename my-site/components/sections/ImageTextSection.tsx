@@ -30,7 +30,7 @@ export function ImageTextSection({ section }: { section: any }) {
   const textBlock = (
     <div className={styles.text}>
       {section.fields.heading && (
-        <h2 id={id}  className={styles.heading}>{section.fields.heading}</h2>
+        <h2 id={id} className={styles.heading}>{section.fields.heading}</h2>
       )}
 
       {section.fields.body && (

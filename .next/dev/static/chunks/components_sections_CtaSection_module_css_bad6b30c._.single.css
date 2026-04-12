@@ -1,6 +1,6 @@
 /* [project]/components/sections/CtaSection.module.css [app-client] (css) */
 .CtaSection-module__3azGOq__section {
-  border-left: 1px solid #fff;
+  border-left: 1px solid var(--col-text);
   height: fit-content;
   margin: 4em 1em;
   padding: .25em 1em;
