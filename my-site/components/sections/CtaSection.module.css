@@ -1,5 +1,5 @@
 .section {
-    border-left: 1px solid var(--col-text);
+    border-left: 2px solid var(--col-text);
     margin: 4em 1em;
     padding: 0.25em 1em;
     height: fit-content;
