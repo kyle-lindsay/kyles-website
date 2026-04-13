@@ -4,12 +4,13 @@ import { Container } from "@/components/layout/Container";
 import styles from "./HeaderSection.module.css";
 
 export function HeaderSection({ section }: { section: any }) {
+    console.log("rendering");
     return (
         <Section>
             <Container>
                 <div className={styles.header}>
                     <h2>{section.fields.title}</h2>
-                    <p>{documentToReactComponents(section.fields.text)}</p>
+                    <p>{section.fields.text}</p>
                 </div>
             </Container>
         </Section>

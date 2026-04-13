@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/sections/HeaderSection.module.css"],"sourcesContent":[""],"names":[],"mappings":""}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/sections/HeaderSection.module.css"],"sourcesContent":[".header {\n    width:100%;\n    padding: 0;\n    margin: 0;\n    border-bottom: 1px solid var(--col-text);\n}\n\n.header h2 {\n    font-size:4rem;\n    margin-top: 2rem;\n    margin-bottom: 1rem;\n}\n\n.header p {\n    padding: 0;\n    font-size: 1.2rem;\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;AAMA"}}]
 }

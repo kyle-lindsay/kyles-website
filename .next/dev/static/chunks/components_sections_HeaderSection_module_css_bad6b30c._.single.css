@@ -1,4 +1,20 @@
 /* [project]/components/sections/HeaderSection.module.css [app-client] (css) */
+.HeaderSection-module__2li3FG__header {
+  border-bottom: 1px solid var(--col-text);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+.HeaderSection-module__2li3FG__header h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.HeaderSection-module__2li3FG__header p {
+  padding: 0;
+  font-size: 1.2rem;
+}
 
 /*# sourceMappingURL=components_sections_HeaderSection_module_css_bad6b30c._.single.css.map*/
