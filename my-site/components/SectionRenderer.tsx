@@ -2,8 +2,10 @@ import { TextSection } from "@/components/sections/TextSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { CtaSection } from "@/components/sections/CtaSection";
 import { ImageTextSection } from "@/components/sections/ImageTextSection";
+import { HeaderSection } from "@/components/sections/HeaderSection";
 
 const sectionComponents: Record<string, React.ComponentType<{ section: any }>> = {
+  headerSection: HeaderSection,
   heroSection: HeroSection,
   textSection: TextSection,
   ctaSection: CtaSection,
